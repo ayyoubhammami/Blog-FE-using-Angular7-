@@ -1,0 +1,13 @@
+.section{
+  border: solid 0.5px black;
+  margin: 5px;
+  padding: 5px;
+}
+.fav{
+  background-color: darkgoldenrod;
+}
+
+:host{
+  margin: 50px;
+  color: brown
+}

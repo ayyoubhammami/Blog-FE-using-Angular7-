@@ -1,0 +1,16 @@
+<div class="section card blog-tile" [ngClass]="{'fav': post.fav}">
+  <h1 class="titre card-body">{{post.titre}}</h1>
+  <p class="card-text" (click)="ouvrir()" >{{post.desc}}</p>
+  <button class="btn btn-success" (click)="favoirFuction()" >Favorite</button>
+  <button class="btn btn-info">Read</button>
+</div>
+
+
+
+<!-- <div class="card blog-tile">
+    <div class="card-body">
+        <h5 class="card-title">{{post.title}}</h5>
+   <p class="card-text" (click)="showFullSummary()">{{post.summary}}</p>
+        <a href="#" class="btn btn-primary">Read</a>
+    </div>
+</div> -->
